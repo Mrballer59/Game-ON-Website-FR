@@ -27,3 +27,19 @@ closeModal.addEventListener('click', crossClose);
 function crossClose() {
   modalbg.style.display = "none";
 }
+
+//Entey Elements
+
+const inputs = document.querySelectorAll('input[type="text"],input[type="email"]input[type="date"],input[type="number"]');
+
+const dateInput = document.queryElementById("birthday");
+
+const cities = document.querySelectorAll('input["type=radio"]');
+const citycheck = document.getElementById("citycheck");
+
+const checkbox1 = document.querySelector("#checkbox1");
+const conditions = document.getElementById("conditionscheck");
+
+
+
+
