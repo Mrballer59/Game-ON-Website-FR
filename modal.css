@@ -217,7 +217,8 @@ input {
 }
 .formData[data-error]::after {
   content: attr(data-error);
-  font-size: 0.4em;
+
+  font-size: 0.5em;
   color: #e54858;
   display: block;
   margin-top: 7px;
@@ -233,12 +234,13 @@ input {
 .formData[data-error-visible="true"] .text-control {
   border: 2px solid #e54858;
 }
-/* 
-  input[data-error]::after {
-      content: attr(data-error);
-      font-size: 0.4em;
-      color: red;
-  } */
+/*
+input[data-error]::after {
+  content: attr(data-error);
+  font-size: 0.4em;
+  color: red;
+}
+*/
 .checkbox-label,
 .checkbox2-label {
   position: relative;
@@ -486,21 +488,6 @@ footer {
   padding-right: 2vw;
   margin: 0 20px;
 }
-.error {
-  color: #ff4e60;
-  border: #ff4e60 2px solid;
-  transition: 00.3s;
-}
-.error-message {
-  font-size: 0.4em;
-  color: #ff4e60;
-  margin: 7px 0 7px 0;
-  text-align: right;
-  line-height: 0.3;
-}
-.display {
-  display: none;
-}
 @media screen and (max-width: 800px) {
   .hero-section {
     display: block;
@@ -543,6 +530,18 @@ footer {
     font-size: 10px;
   }
 }
+/* .error {
+  color: #ff4e60;
+  border: #ff4e60 2px solid;
+  transition: 00.3s;
+}
+.error-message {
+  font-size: 0.4em;
+  color: #ff4e60;
+  margin: 7px 0 7px 0;
+  text-align: right;
+  line-height: 0.3;
+} */
 
 @media screen and (min-width: 801px) {
   .hero-headline {
